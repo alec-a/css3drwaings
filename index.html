@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>css only drawing</title>
+		<style type="text/css">
+			.top{
+				position: relative;
+			}
+			.antenna1, .antenna2, .head, .eye1, .eye2{
+				background: #a4ca39;
+				position: absolute;
+			}
+			.antenna1, .antenna2{
+				width: 18px;
+				height: 100px;
+				border-radius: 18px 18px 0px 0px;
+				-moz-border-radius: 18px 18px 0px 0px;
+				-webkit-border-radius: 18px 18px 0px 0px;
+				-o-border-radius: 18px 18px 0px 0px;
+			}
+			.antenna2{
+				left: 30px;
+				-webkit-transform: rotate(67.58deg);
+				-webkit-transform-style: preserve-3d;
+				-moz-transform: rotate(67.58deg);
+				-o-transform: rotate(67.58deg);
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<div class="top">
+				<div class="antenna1"></div>
+				<div class="antenna2"></div>
+				<div class="head"></div>
+				<div class="eye1"></div>
+				<div class="eye2"></div>
+			</div>
+		</div>
+	</body>
+</html>

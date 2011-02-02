@@ -1,0 +1,98 @@
+<html>
+	<head>
+		
+		<style type="text/css">
+		body{
+			position: relative;
+		}
+		.bg{
+			position: relative;
+			background: #f3f4ee;
+			width: 230px;
+			height: 230px;
+			border-radius: 35px;
+			-o-border-radius: 35px;
+			-moz-border-radius: 35px;
+			-webkit-border-radius: 35px;
+			overflow: hidden;
+		}
+		.freeway{
+			position: absolute;
+			top: 60px;
+			width: 230px;
+			height: 25px;
+			background: #fbcf1a;
+			z-index: 100;
+			border-top: #e7b11c 2px solid;
+			border-bottom: #e7b11c 2px solid;
+		}
+		.highway{
+			position: absolute;
+			left: 27px;
+			width: 29px;
+			height: 230px;
+			background: #efec7d;
+			z-index: 99;
+		}
+		.toproad{
+			position: absolute;
+			top: 0px;
+			left: 15px;
+			width: 200px;
+			height: 6px;
+			background: #fafdfd;
+			border-bottom: 2px solid #E0DED6;
+			z-index: 1;
+		}
+		.ramp1, .ramp2, .ramp3, .ramp4{
+			position: absolute;
+			width: 18px;
+			height: 18px;
+			background: #e7b11c;
+		}
+		.ramp1{
+			top: 57px;
+			left: 50px;
+			z-index: 1;
+			-webkit-transform: rotate(20deg);
+			-o-transform: rotate(20deg);
+			-moz-transform: rotate(20deg);
+		}
+		.ramp2{
+			top: 57px;
+			left: 15px;
+			z-index: 1;
+			-webkit-transform: rotate(-20deg);
+			-o-transform: rotate(-20deg);
+			-moz-transform: rotate(-20deg);
+		}
+		.ramp3{
+			top: 75px;
+			left: 18px;
+			z-index: 1;
+			-webkit-transform: rotate(20deg);
+			-o-transform: rotate(20deg);
+			-moz-transform: rotate(20deg);
+		}
+		.ramp4{
+			top: 75px;
+			left: 48px;
+			z-index: 1;
+			-webkit-transform: rotate(-20deg);
+			-o-transform: rotate(-20deg);
+			-moz-transform: rotate(-20deg);
+		}
+		</style>
+	</head>
+	<body>
+		<div class="bg">
+			<div class="freeway"></div>
+			<div class="highway"></div>
+			<div class="toproad"></div>
+			<div class="ramp1"></div>
+			<div class="ramp2"></div>
+			<div class="ramp3"></div>
+			<div class="ramp4"></div>
+		</div>
+	</body>
+</html>
